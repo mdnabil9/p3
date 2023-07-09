@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600;700&display=swap');
+*{
+    font-family: 'Titillium Web', sans-serif;
+    outline: 0!important;
+    /* border: 0!important; */
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #87509c;
+}
+.header-btn{
+    background-color: #eb7d4b;
+}
+section{
+    padding: 5% 0%;
+}
+.underline{
+    width: 7%;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.248);
+    margin: 20px auto;
+}
+
+/* Service Section */
+#service{
+    background-color: #17c2a4;
+}
+
+/* Team Section */
+#team{
+    background-color: #e7f1f8;
+}
+
+/* PortFolio Section */
+#portfolio{
+    background-color: #ffdd99;
+}
+.portfolio-btn a{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+.portfolio-btn a:hover{
+    background-color: white;
+    text-transform: uppercase;
+}
+.portfolio-btn-2{
+    background-color: #17c2a4;
+}
+.portfolio-btn-2:hover{
+    background-color: #07a689;
+}
+
+/* About Us Section */
+#about-us{
+    background-color: #d74680;
+}
+#about-us h3{
+    margin: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.about-us-des{
+    color: #ffdd99;
+}
+
+/* Touch Section Start */
+#touch{
+    background-color: #3c5499;
+}
+form{
+    width: 70%;
+    display: block;
+    margin: 70px auto;
+}
+#touch input, #touch textarea{
+    border: 0;
+    border-radius: 1;
+    color: white;
+}
+#touch input::placeholder, #touch textarea::placeholder{
+    color: white;
+}
+.touch-btn{
+    background-color: #30bae7;
+    border-radius: 3px;
+}
+.touch-btn:hover{
+    background-color: #19a0ce;
+}
+
+.input-placeholder {
+    position: relative;
+  }
+  .input-placeholder input {
+    padding: 2px;
+  }
+  .input-placeholder input:valid + .placeholder {
+    display: none;
+  }
+  .placeholder {
+    position: absolute;
+    pointer-events: none;
+    /* top: 2px; */
+    /* bottom: 2px; */
+    /* left: 6px; */
+    /* margin: auto; */
+    color: #ccc;
+  }
+  .placeholder span {
+    color: red;
+  }
